@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - TradeLink</title>
+    <title>Privacy Policy & Terms of Use - TradeLink Admin</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; }
         .container { max-width: 800px; margin: auto; padding: 20px; }
@@ -17,65 +17,74 @@
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy for TradeLink</h1>
-        <p><strong>Last Updated:</strong> July 15, 2025</p>
+        <h1>Privacy Policy for TradeLink Admin</h1>
+        <p><strong>Last Updated:</strong> July 22, 2025</p>
 
-        <p>TradeLink values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+        <p>TradeLink Admin App respects your privacy. This Privacy Policy explains what data we collect, how it’s used, and how we keep it secure.</p>
 
         <h2>1. Information We Collect</h2>
-        <p>We may collect the following information:</p>
         <ul>
-            <li>Personal details (such as your name, email address) when you sign up using Firebase Authentication.</li>
-            <li>Order-related information including shop names, product details, and payment information.</li>
-            <li>Uploaded photos, such as receipts or product images, stored in Firebase Storage.</li>
-            <li>Device token (used only for delivering push notifications through Firebase Cloud Messaging).</li>
-            <li>Biometric authentication status (whether biometric unlock is enabled, but not the actual fingerprint or face data).</li>
+            <li><strong>Account credentials:</strong> Admins log in using their email and password via Firebase Authentication.</li>
+            <li><strong>Biometric login:</strong> If enabled, biometric data (fingerprint or face) is used for quick access. This is processed locally by your device and never stored by us.</li>
+            <li><strong>FCM Token:</strong> A Firebase Cloud Messaging token is used to send push notifications about orders and system alerts.</li>
+            <li><strong>Security PIN:</strong> A 4-digit PIN can be set to secure sensitive areas like KBZ management. This is stored securely in Firestore.</li>
+            <li><strong>KBZ Account Info:</strong> Includes bank numbers, KPay QR images, and nicknames managed by admins. Saved in Firestore and Firebase Storage.</li>
+            <li><strong>Price Manager:</strong> Values and calculations entered for pricing are stored with timestamps in Firestore.</li>
+            <li><strong>Daily Balance:</strong> Admins can input and store daily balance data in Firestore.</li>
+            <li><strong>Order Management:</strong> The app lets admins view and update user orders, statuses, and upload payment confirmation screenshots.</li>
         </ul>
 
         <h2>2. How We Use Your Information</h2>
-        <p>We use your information to:</p>
         <ul>
-            <li>Authenticate and manage your user account.</li>
-            <li>Process and store your order information.</li>
-            <li>Deliver app notifications related to your activity.</li>
-            <li>Improve app functionality and user experience.</li>
-            <li>Secure your account using biometric authentication (if enabled on your device).</li>
+            <li>To authenticate and allow admin access.</li>
+            <li>To manage user orders and update statuses.</li>
+            <li>To send order alerts and admin notifications.</li>
+            <li>To secure sensitive areas using biometric login and PIN codes.</li>
         </ul>
 
-        <h2>3. Biometric Authentication</h2>
-        <p>If enabled, TradeLink supports biometric login (e.g., fingerprint or face unlock) for quick and secure access. Biometric data is never collected or stored by TradeLink — all verification is handled locally by your device's operating system.</p>
+        <h2>3. Data Security</h2>
+        <p>We use Firebase security features such as Authentication, Firestore Rules, and Storage Rules to protect your data.</p>
 
-        <h2>4. Data Storage and Security</h2>
-        <ul>
-            <li>User and order data is securely stored in Firebase Firestore.</li>
-            <li>Uploaded images are stored in Firebase Storage.</li>
-            <li>All communication with Firebase is encrypted.</li>
-            <li>We use reasonable technical and organizational measures to safeguard your data.</li>
-        </ul>
-
-        <h2>5. Data Sharing</h2>
+        <h2>4. Data Sharing</h2>
         <p>We do not share your personal data with third parties, except:</p>
         <ul>
-            <li>When required by law or legal process.</li>
-            <li>With Firebase (by Google), used as our backend infrastructure.</li>
+            <li>When required by law.</li>
+            <li>With trusted services like Firebase (used as backend infrastructure).</li>
         </ul>
 
-        <h2>6. Your Rights</h2>
-        <p>You may:</p>
+        <h2>5. Policy Updates</h2>
+        <p>Any changes to this policy will be reflected here. We may also notify you via the app for major updates.</p>
+
+        <hr>
+
+        <h1>Terms of Use for TradeLink Admin</h1>
+        <p>These terms govern how administrators use the TradeLink Admin App.</p>
+
+        <h2>1. Access & Eligibility</h2>
         <ul>
-            <li>View or update your profile within the app.</li>
-            <li><strong>Delete your account</strong>: To delete your account, open the TradeLink app, navigate to Account Settings, tap 'Delete Account', and follow the on-screen prompts to confirm. This will delete your personal details (name, email address), order history, uploaded photos, and device token. For legal and compliance purposes, some data (e.g., transaction records) may be retained for up to 90 days before permanent deletion.</li>
-            <li>Disable notifications or biometric login through your device settings.</li>
+            <li>Only authorized TradeLink admins can use this app.</li>
+            <li>Login is secured using Firebase Authentication and admin role verification.</li>
         </ul>
 
-        <h2>7. Cookies and Tracking</h2>
-        <p>We do not use cookies or analytics tools in this app. No personal data is used for tracking, marketing, or advertising purposes.</p>
+        <h2>2. Admin Responsibilities</h2>
+        <ul>
+            <li>Accurately manage user orders, statuses, and confirmations.</li>
+            <li>Keep all user-related data confidential.</li>
+            <li>Protect your login credentials and PIN at all times.</li>
+        </ul>
 
-        <h2>8. Contact Us</h2>
-        <p>For questions or privacy-related concerns, contact us via Telegram: <a href="https://t.me/TradeLink202">📩 @TradeLink202</a> (available 9:00 AM - 5:00 PM).</p>
+        <h2>3. Prohibited Actions</h2>
+        <ul>
+            <li>Do not use the app for unauthorized or illegal activities.</li>
+            <li>Do not tamper with app functionality or stored data.</li>
+            <li>Never share user data with third parties.</li>
+        </ul>
+
+        <h2>4. Limitation of Liability</h2>
+        <p>TradeLink is not responsible for damages caused by misuse, data breaches due to negligence, or technical failures beyond our control.</p>
 
         <br>
-        <p>By using the TradeLink app, you agree to the terms outlined in this Privacy Policy.</p>
+        <p>By using the TradeLink Admin App, you agree to the above Privacy Policy and Terms of Use.</p>
     </div>
 </body>
 </html>
